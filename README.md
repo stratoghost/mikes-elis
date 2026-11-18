@@ -30,6 +30,25 @@ Why these choices:
 
 ## Install
 
+As a Claude Code plugin (updates through `/plugin`):
+
+```
+/plugin marketplace add stratoghost/mikes-elis
+/plugin install mikes-elis@mikes-elis
+```
+
+A project can make it a dependency for everyone who trusts the repo, in its
+`.claude/settings.json`:
+
+```json
+"extraKnownMarketplaces": {
+  "mikes-elis": { "source": { "source": "github", "repo": "stratoghost/mikes-elis" } }
+},
+"enabledPlugins": { "mikes-elis@mikes-elis": true }
+```
+
+Or by hand, as symlinks (use one method, not both, or the skill loads twice):
+
 ```bash
 git clone https://github.com/stratoghost/mikes-elis.git
 cd mikes-elis
