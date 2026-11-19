@@ -1,0 +1,12 @@
+{
+  "name": "mikes-elis",
+  "description": "Explain Like I'm Stupid: the explain-simply skill and /elis command. Short, picture-first, fixed-shape explanations in Bionic Reading, drawn inline in the terminal.",
+  "version": "1.0.0",
+  "author": {
+    "name": "stratoghost",
+    "url": "https://github.com/stratoghost"
+  },
+  "homepage": "https://github.com/stratoghost/mikes-elis",
+  "repository": "https://github.com/stratoghost/mikes-elis",
+  "license": "MIT"
+}

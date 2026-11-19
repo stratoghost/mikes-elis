@@ -1,0 +1,18 @@
+{
+  "name": "mikes-elis",
+  "owner": {
+    "name": "stratoghost",
+    "url": "https://github.com/stratoghost"
+  },
+  "metadata": {
+    "description": "Explain Like I'm Stupid for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mikes-elis",
+      "source": "./",
+      "description": "The explain-simply skill and /elis command."
+    }
+  ]
+}
